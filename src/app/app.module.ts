@@ -7,6 +7,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/publicPages/home/home.component';
 import { AboutComponent } from './pages/publicPages/about/about.component';
 import { APP_ROUTING } from './app.routes';
+import { GalleryComponent } from './pages/publicPages/gallery/gallery.component';
+import { ContactUsComponent } from './pages/publicPages/contact-us/contact-us.component';
+import { LoginComponent } from './pages/publicPages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { APP_ROUTING } from './app.routes';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    GalleryComponent,
+    ContactUsComponent,
+    LoginComponent
   ],
   imports: [
     APP_ROUTING,

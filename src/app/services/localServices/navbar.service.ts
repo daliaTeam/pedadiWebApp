@@ -16,15 +16,15 @@ export class NavbarService {
     },
     {
       nombre: 'Galeria',
-      url: '/'
+      url: '/gallery'
     },
     {
       nombre: 'Contáctanos',
-      url: '/'
+      url: '/contactUs'
     },
     {
       nombre: 'Inicia sesión',
-      url: '/'
+      url: '/login'
     }
   ];
 
